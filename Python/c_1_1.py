@@ -1,4 +1,3 @@
-
 def is_char_unique_str(s):
     if not s:
         return True
@@ -12,10 +11,3 @@ def is_char_unique_str_without_datastructure(s):
         if c in s[i+1:]:
             return False
     return True
-
-# TODO: unit test
-
-
-if __name__ == '__main__':
-    print(is_char_unique_str(''))
-    print(is_char_unique_str_without_datastructure('abcdefg'))
