@@ -26,3 +26,12 @@
 *.exe
 *.out
 *.app
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.cache
+nosetests.xml
+
+# Python cache files
+*.pyc
